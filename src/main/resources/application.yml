@@ -1,0 +1,10 @@
+server.port: 8080
+
+spring:
+  ai.openai.api-key: ${OPENAI_API_KEY}
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+springdoc.api-docs.path: /api-docs
