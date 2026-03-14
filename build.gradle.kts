@@ -27,14 +27,11 @@ dependencies {
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 
-	// 코루틴 의존성
-	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core")
-	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-reactor")
-
 	// Spring AI 의존성
 	implementation("org.springframework.ai:spring-ai-openai-spring-boot-starter")
-	implementation("org.springframework.ai:spring-ai-starter-model-anthropic")
 
+	// PDF 처리 라이브러리
+	implementation("org.apache.pdfbox:pdfbox:2.0.27")
 
 	// Swagger/OpenAPI 의존성
 	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.3.0")
